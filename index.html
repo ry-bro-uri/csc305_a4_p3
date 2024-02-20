@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <!-- Credit for the front end layout https://codepen.io/blackellis/pen/jObGbeG used by Copilot-->
     <title>Profiles</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
     <script src="firebaseConfig.js"></script>
 </head>
+
 <body>
-    <h1>Profiles</h1>
-    <div id="data"></div>
+    <div id="root">
+            
+        <h1>Profiles</h1>
+
+        <div id="db-root" class="container">
+
+        </div>
+    </div>
+
     <!-- Your HTML content goes here -->
     <script src="app.js"></script>
 </body>
+
 </html>
